@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mist-relay-07
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
